@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_cast_connected_black_24dp"
+            android:title="@string/text_connection" />
+        <item
+            android:id="@+id/nav_subscribe"
+            android:icon="@drawable/ic_hearing_black_24dp"
+            android:title="@string/topics" />
+        <item
+            android:id="@+id/nav_publish"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/publish" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_swap_calls_black_24dp"
+            android:title="@string/status" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/exit" />
+    </group>
+
+</menu>
